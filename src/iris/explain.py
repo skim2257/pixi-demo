@@ -43,7 +43,7 @@ def plot_predictions(X, y, y_hat, save_path="images/predictions.png"):
     plt.savefig(save_path)
 
 def main():
-    lr, svm, km = load_models("models")
+    lr, svm, km = load_models("data/models")
 
     # load data
     df_iris = pd.read_csv("data/iris.csv", index_col=0)
