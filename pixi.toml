@@ -1,0 +1,10 @@
+[project]
+name = "pixi_demo"
+version = "1.0.0"
+description = "This demo shows how to use pixi to build a machine learning pipeline."
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tasks]
+
+[dependencies]
